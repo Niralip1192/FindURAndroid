@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black" >
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enpass" 
+         android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/passdec" 
+         android:textColor="@android:color/white"/>
+
+     <EditText
+         android:id="@+id/EditpassText1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:maxLength="4"
+         android:textColor="@android:color/white" />
+
+       <TableLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" >
+        
+        <TableRow>
+           
+            <Button
+                android:id="@+id/btps1"
+                android:layout_width="105dp"
+                android:text="@string/one" />
+          
+        <Button
+            android:id="@+id/btps2"
+            android:layout_width="105dp"
+            android:onClick="gotwo"
+            android:text="@string/two" />
+          
+            <Button
+                android:id="@+id/btps3"
+                android:layout_width="105dp"
+                android:onClick="gothree"
+                android:text="@string/three" />
+            
+      </TableRow>  
+       <TableRow>
+           
+            <Button
+                android:id="@+id/btps4"
+                android:layout_width="105dp"
+                android:onClick="gofour"
+                android:text="@string/four" />
+          
+        <Button
+            android:id="@+id/btps5"
+            android:layout_width="105dp"
+            android:onClick="gofive"
+            android:text="@string/five" />
+          
+            <Button
+                android:id="@+id/btps6"
+                android:layout_width="105dp"
+                android:onClick="gosix"
+                android:text="@string/six" />
+            
+      </TableRow>  
+       <TableRow>
+           
+            <Button
+                android:id="@+id/btps7"
+                android:layout_width="105dp"
+                android:onClick="goseven"
+                android:text="@string/seven" />
+          
+        <Button
+            android:id="@+id/btps8"
+            android:layout_width="105dp"
+            android:onClick="goeight"
+            android:text="@string/eight" />
+          
+            <Button
+                android:id="@+id/btps9"
+                android:layout_width="105dp"
+                android:onClick="gonine"
+                android:text="@string/nine" />
+            
+      </TableRow>  
+       <TableRow>
+           
+            <Button
+                android:id="@+id/btps10"
+                android:layout_width="105dp"
+                android:onClick="gosave"
+                android:text="@string/save" />
+          
+        <Button
+            android:id="@+id/btps11"
+            android:layout_width="105dp"
+            android:onClick="gozero"
+            android:text="@string/zero" />
+          
+            <Button
+                android:id="@+id/btps12"
+                android:layout_width="105dp"
+                android:onClick="gocancel"
+                android:text="@string/can" />
+            
+      </TableRow>  
+        </TableLayout>
+
+</LinearLayout>
